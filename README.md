@@ -10,20 +10,20 @@ This project was developed to understand the complete Machine Learning workflow�
 
 The project compares multiple regression models and identifies the best-performing model based on prediction accuracy.
 
-## ✨ Features
+## Features
 
-- 📊 Exploratory Data Analysis (EDA)
-- 🧹 Missing value handling
-- 📈 Correlation analysis
-- 🌲 Random Forest Regression
-- 📉 Linear Regression
-- 🌳 Decision Tree Regression
-- ⚙️ Hyperparameter tuning using GridSearchCV
-- 💾 Model saving with Joblib
-- 🌐 Interactive Streamlit web application
-- 📋 Feature importance visualization
+- Exploratory Data Analysis (EDA)
+- Missing value handling
+- Correlation analysis
+- Random Forest Regression
+- Linear Regression
+- Decision Tree Regression
+- Hyperparameter tuning using GridSearchCV
+- Model saving with Joblib
+- Interactive Streamlit web application
+- Feature importance visualization
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python
 - Pandas
@@ -33,7 +33,7 @@ The project compares multiple regression models and identifies the best-performi
 - Joblib
 - Streamlit
 
-## 📊 Model Performance
+## Model Performance
 
 | Model | R² Score | MAE |
 |--------|---------:|---------:|
@@ -41,7 +41,7 @@ The project compares multiple regression models and identifies the best-performi
 | Linear Regression | 0.7995 | 26,023.14 |
 | Decision Tree Regressor | 0.7531 | 26,310.30 |
 
-### 🏆 Best Model
+### Best Model
 
 The Random Forest Regressor achieved the highest prediction accuracy after hyperparameter tuning using **GridSearchCV**.
 
@@ -52,7 +52,7 @@ The Random Forest Regressor achieved the highest prediction accuracy after hyper
 
 ## 📷 Project Preview
 
-### 🏠 Streamlit Application
+### Streamlit Application
 
 <p align="center">
   <img src="images/app_home.png" width="650">
@@ -60,7 +60,7 @@ The Random Forest Regressor achieved the highest prediction accuracy after hyper
 
 ---
 
-### 💰 House Price Prediction
+### House Price Prediction
 
 <p align="center">
   <img src="images/prediction.png" width="650">
@@ -75,3 +75,34 @@ The Random Forest Regressor achieved the highest prediction accuracy after hyper
   <img src="images/feature_importance.png" width="600">
 </p>
 
+## ▶️ Installation
+
+```bash
+git clone https://github.com/AryanADRamteke/House-Price-Prediction-ML.git
+
+cd House-Price-Prediction-ML
+
+pip install -r requirements.txt
+
+streamlit run app.py
+```
+
+---
+
+## Future Improvements
+
+- Improve feature engineering
+- Deploy on Streamlit Community Cloud
+- Add XGBoost and LightGBM models
+- Add more interactive visualizations
+
+---
+
+## Author
+
+**Aryan Ramteke**
+
+M.Tech, Civil Engineering  
+Indian Institute of Technology Bombay
+
+GitHub: https://github.com/AryanADRamteke
