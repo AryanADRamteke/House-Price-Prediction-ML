@@ -49,3 +49,21 @@ The Random Forest Regressor achieved the highest prediction accuracy after hyper
 
 - `n_estimators = 100`
 - `max_depth = 10`
+
+## 📷 Project Preview
+
+### 🏠 Streamlit Application
+
+![App Home](images/app_home.png)
+
+---
+
+### 💰 House Price Prediction
+
+![Prediction](images/prediction.png)
+
+---
+
+### 📊 Feature Importance
+
+![Feature Importance](images/feature_importance.png)
